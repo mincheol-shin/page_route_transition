@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:meta/meta.dart';
 
 enum TransitionEffect {
   fade,
@@ -56,25 +55,27 @@ class Transition {
   /// Default to [Curves.ease]
   final Curve curve;
 
+  /// Called to obtain the child widget.
   Route builder() => PageRouteBuilder(
-    pageBuilder: (BuildContext context, animation, _) => child,
-    transitionsBuilder: (BuildContext context, animation, _, __) {
-      switch (transitionEffect) {
-        case TransitionEffect.fade:
-          return FadeTransition(opacity: animation, child: child);
-          break;
-        case TransitionEffect.scale:
-          return ScaleTransition(scale: animation, child: child);
+        pageBuilder: (BuildContext context, animation, _) => child,
+        transitionsBuilder: (BuildContext context, animation, _, __) {
+          switch (transitionEffect) {
+            case TransitionEffect.fade:
+              return FadeTransition(opacity: animation, child: child);
+              break;
+            case TransitionEffect.scale:
+              return ScaleTransition(scale: animation, child: child);
 
-        default:
-          var tween = Tween(begin: transitionEffect.value, end: Offset.zero).chain(CurveTween(curve: curve));
-          return SlideTransition(
-            transformHitTests: false,
-            position: animation.drive(tween),
-            child: child,
-          );
-          break;
-      }
-    },
-  );
+            default:
+              var tween = Tween(begin: transitionEffect.value, end: Offset.zero)
+                  .chain(CurveTween(curve: curve));
+              return SlideTransition(
+                transformHitTests: false,
+                position: animation.drive(tween),
+                child: child,
+              );
+              break;
+          }
+        },
+      );
 }
