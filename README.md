@@ -1,6 +1,6 @@
 # transition
 
-A transition library that helps implement the page transition animation. :smiley:
+A transition library that helps implement the page transition animation. :dizzy:
 
 
 
