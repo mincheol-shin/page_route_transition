@@ -6,13 +6,13 @@ A transition library that helps implement the page transition animation. :dizzy:
 
 <br>
 
-## Showcase
+# Showcase
 
 <img src = "https://user-images.githubusercontent.com/55150540/101777184-74929100-3b35-11eb-89fb-0620446f8897.gif" width = 200>
 
 <br> 
 
-## Getting Started
+# Getting Started
 
 In the pubspec.yaml of your flutter project, add the following dependency:
 ```yaml
@@ -22,7 +22,7 @@ dependencies:
 
 <br>
 
-## Usage
+# Usage
 Need to include the import the package to the dart file where it will be used, refer the below command
 ```dart
 import 'package:transition/transition.dart';
@@ -30,7 +30,7 @@ import 'package:transition/transition.dart';
 
 <br>
 
-## Complete example
+# Complete example
 ```dart
 import 'package:flutter/material.dart';
 import 'package:transition/transition.dart';
@@ -164,8 +164,9 @@ class _SecondScreenState extends State<SecondScreen> {
 
 
 ```
+<br>
 
-## License
+# License
 ```
 Copyright 2020, the Flutter project authors. All rights reserved.
 
