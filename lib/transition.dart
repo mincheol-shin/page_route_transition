@@ -6,7 +6,7 @@ enum TransitionEffect {
   rightToLeft,
   leftToRight,
   topToBottom,
-  buttonToTop,
+  bottomToTop,
 }
 
 extension TransitionEffectExtension on TransitionEffect {
@@ -21,7 +21,7 @@ extension TransitionEffectExtension on TransitionEffect {
       case TransitionEffect.topToBottom:
         return Offset(0.0, -1.0);
         break;
-      case TransitionEffect.buttonToTop:
+      case TransitionEffect.bottomToTop:
         return Offset(0.0, 1.0);
         break;
       default:

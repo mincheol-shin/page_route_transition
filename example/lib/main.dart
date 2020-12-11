@@ -53,7 +53,7 @@ class _MyAppState extends State<MyApp> {
                   context,
                   Transition(
                           child: SecondScreen(),
-                          transitionEffect: TransitionEffect.buttonToTop)
+                          transitionEffect: TransitionEffect.bottomToTop)
                       .builder(),
                 );
               },
