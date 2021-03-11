@@ -20,83 +20,45 @@ class _MyAppState extends State<MyApp> {
       ),
       body: Container(
         width: double.infinity,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  Transition(
-                          child: SecondScreen(),
-                          transitionEffect: TransitionEffect.rightToLeft)
-                      .builder(),
-                );
-              },
-              child: Text("RightToLeft"),
-            ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  Transition(
-                          child: SecondScreen(),
-                          transitionEffect: TransitionEffect.leftToRight)
-                      .builder(),
-                );
-              },
-              child: Text("LeftToRight"),
-            ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  Transition(
-                          child: SecondScreen(),
-                          transitionEffect: TransitionEffect.bottomToTop)
-                      .builder(),
-                );
-              },
-              child: Text("bottomToTop"),
-            ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  Transition(
-                          child: SecondScreen(),
-                          transitionEffect: TransitionEffect.topToBottom)
-                      .builder(),
-                );
-              },
-              child: Text("TopToBottom"),
-            ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  Transition(
-                          child: SecondScreen(),
-                          transitionEffect: TransitionEffect.scale)
-                      .builder(),
-                );
-              },
-              child: Text("Scale"),
-            ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  Transition(
-                          child: SecondScreen(),
-                          transitionEffect: TransitionEffect.fade)
-                      .builder(),
-                );
-              },
-              child: Text("Fade"),
-            ),
-          ],
-        ),
+        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          transitionButton(
+              transitionEffect: TransitionEffect.RIGHT_TO_LEFT,
+              title: "RightToLeft"),
+          transitionButton(
+              transitionEffect: TransitionEffect.LEFT_TO_RIGHT,
+              title: "LeftToRight"),
+          transitionButton(
+              transitionEffect: TransitionEffect.BOTTOM_TO_TOP,
+              title: "BottomToTop"),
+          transitionButton(
+              transitionEffect: TransitionEffect.TOP_TO_BOTTOM,
+              title: "TopToBottom"),
+          transitionButton(
+              transitionEffect: TransitionEffect.SCALE, title: "Scale"),
+          transitionButton(
+              transitionEffect: TransitionEffect.FADE, title: "Fade"),
+        ]),
+      ),
+    );
+  }
+
+  Widget transitionButton(
+      {required TransitionEffect transitionEffect, required String title}) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: GestureDetector(
+        onTap: () {
+          Navigator.push(
+              context,
+              Transition(
+                  child: SecondScreen(), transitionEffect: transitionEffect));
+        },
+        child: Container(
+            height: 40.0,
+            width: 100.0,
+            color: Colors.grey[300],
+            alignment: Alignment.center,
+            child: Text(title)),
       ),
     );
   }

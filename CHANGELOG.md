@@ -1,19 +1,18 @@
-## [1.0.2] - 2020-12-11
+## 2.0.0
 
-### Updated
-- Update README
+* Stable null safety release.
+* Update README
+* Update example
 
+## 1.0.2
 
-## [1.0.1] - 2020-12-11
+* Update README
 
-### Updated
-- Fix typo
+## 1.0.1
 
+* Fix typo
 
+## 1.0.0
 
-
-## [1.0.0] - 2020-12-10
-
-### Added
-- Transition creation
+* Transition creation
 
