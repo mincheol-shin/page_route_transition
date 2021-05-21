@@ -33,12 +33,14 @@ class Transition extends PageRouteBuilder {
     required Widget child,
     TransitionEffect transitionEffect = TransitionEffect.FADE,
     Curve curve = Curves.ease,
+    Object? arguments,
   })  : this.child = child,
         this.transitionEffect = transitionEffect,
         this.curve = curve,
         super(
           /// Called to obtain the child widget.
           pageBuilder: (BuildContext context, animation, _) => child,
+          settings: RouteSettings(arguments: arguments),
           transitionsBuilder: (BuildContext context, animation, _, __) {
             switch (transitionEffect) {
               case TransitionEffect.FADE:

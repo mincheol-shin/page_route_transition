@@ -1,6 +1,6 @@
 name: transition
 description: A transition library that helps implement the page transition animation.
-version: 2.0.1
+version: 2.0.2
 homepage: https://github.com/mincheol-shin/transition
 
 environment:

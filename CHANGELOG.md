@@ -1,3 +1,8 @@
+## 2.0.2
+
+* Added Object to pass arguments to other pages
+
+
 ## 2.0.1
 
 * Update complete example
