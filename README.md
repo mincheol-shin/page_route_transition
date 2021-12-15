@@ -2,7 +2,7 @@
 
 A Page Route Transition library that helps implement the page transition animation. :dizzy:
 
-[![pub](https://img.shields.io/pub/v/transition)](https://pub.dev/packages/transition)
+[![pub](https://img.shields.io/pub/v/page_route_transition)](https://pub.dev/packages/page_route_transition)
 
 
 <br>
