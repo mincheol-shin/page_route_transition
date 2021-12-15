@@ -1,3 +1,8 @@
+## 3.0.1
+
+* Updated README
+
+
 ## 3.0.0
 
 * Renamed `Transition` to `PageRouteTransition`.
