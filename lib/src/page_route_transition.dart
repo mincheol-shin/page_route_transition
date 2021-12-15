@@ -19,14 +19,21 @@ class PageRouteTransition {
   static RouteSettings? settings;
 
   static Future push(BuildContext context, Widget page) async {
-    return Navigator.push(context, PageRouteTransitionBuilder(page: page, effect: effect, curve: curve, settings: settings));
+    return Navigator.push(
+        context,
+        PageRouteTransitionBuilder(
+            page: page, effect: effect, curve: curve, settings: settings));
   }
 
   static Future pushReplacement(BuildContext context, Widget page) async {
-    return Navigator.pushReplacement(context, PageRouteTransitionBuilder(page: page, effect: effect, curve: curve, settings: settings));
+    return Navigator.pushReplacement(
+        context,
+        PageRouteTransitionBuilder(
+            page: page, effect: effect, curve: curve, settings: settings));
   }
 
-  static Future pop<T extends Object?>(BuildContext context, [T? result]) async {
+  static Future pop<T extends Object?>(BuildContext context,
+      [T? result]) async {
     if (Navigator.canPop(context)) {
       Navigator.pop(context, result);
     }

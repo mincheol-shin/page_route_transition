@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="558526c2-2feb-458e-8da6-80f92f10db77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/screens/transition_example_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/screens/transition_example_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/widgets/transition_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/widgets/transition_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/page_route_transition.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page_route_transition.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/page_route_transition.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/page_route_transition.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/page_route_transition_builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/page_route_transition_builder.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/transition_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/page_route_transition_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/page_route_transition.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,22 +90,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2023" height="320" key="GridCell.Tab.0.bottom" timestamp="1639571847231">
+    <state width="2023" height="320" key="GridCell.Tab.0.bottom" timestamp="1639577376079">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="320" key="GridCell.Tab.0.bottom/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639571847231" />
-    <state width="2023" height="320" key="GridCell.Tab.0.center" timestamp="1639571847230">
+    <state width="2023" height="320" key="GridCell.Tab.0.bottom/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639577376079" />
+    <state width="2023" height="320" key="GridCell.Tab.0.center" timestamp="1639577376079">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="320" key="GridCell.Tab.0.center/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639571847230" />
-    <state width="2023" height="320" key="GridCell.Tab.0.left" timestamp="1639571847230">
+    <state width="2023" height="320" key="GridCell.Tab.0.center/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639577376079" />
+    <state width="2023" height="320" key="GridCell.Tab.0.left" timestamp="1639577376079">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="320" key="GridCell.Tab.0.left/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639571847230" />
-    <state width="2023" height="320" key="GridCell.Tab.0.right" timestamp="1639571847231">
+    <state width="2023" height="320" key="GridCell.Tab.0.left/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639577376079" />
+    <state width="2023" height="320" key="GridCell.Tab.0.right" timestamp="1639577376079">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="320" key="GridCell.Tab.0.right/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639571847231" />
+    <state width="2023" height="320" key="GridCell.Tab.0.right/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639577376079" />
     <state x="-1840" y="398" key="run.anything.popup" timestamp="1639569706131">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>

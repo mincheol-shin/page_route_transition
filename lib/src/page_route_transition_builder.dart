@@ -24,7 +24,8 @@ class PageRouteTransitionBuilder extends PageRouteBuilder {
               case TransitionEffect.scale:
                 return ScaleTransition(scale: animation, child: child);
               default:
-                var tween = Tween(begin: effect.value, end: Offset.zero).chain(CurveTween(curve: curve));
+                var tween = Tween(begin: effect.value, end: Offset.zero)
+                    .chain(CurveTween(curve: curve));
                 return SlideTransition(
                   transformHitTests: false,
                   position: animation.drive(tween),

@@ -1,4 +1,4 @@
-# transition_example
+# page_route_transition_example
 
 Demonstrates how to use the transition plugin.
 
