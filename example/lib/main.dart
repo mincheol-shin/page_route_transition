@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:transition/page_route_transition.dart';
+import 'package:page_route_transition/page_route_transition.dart';
 
 import 'widgets/transition_button.dart';
 

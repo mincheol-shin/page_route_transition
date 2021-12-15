@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:transition/page_route_transition.dart';
-import 'package:transition_example/screens/transition_example_screen.dart';
+import 'package:page_route_transition/page_route_transition.dart';
+import 'package:page_route_transition_example/screens/transition_example_screen.dart';
 
 class TransitionButton extends StatelessWidget {
   const TransitionButton({

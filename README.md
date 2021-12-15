@@ -18,7 +18,7 @@ A Page Route Transition library that helps implement the page transition animati
 In the pubspec.yaml of your flutter project, add the following dependency:
 ```yaml
 dependencies:
-  transition : "^lastest_version"
+  page_route_transition : "^lastest_version"
 ```
 
 <br>
@@ -26,7 +26,7 @@ dependencies:
 # Usage
 Need to include the import the package to the dart file where it will be used, refer the below command
 ```dart
-import 'package:transition/transition.dart';
+import 'package:page_route_transition/page_route_transition.dart';
 ```
 
 <br>
