@@ -18,7 +18,7 @@ class TransitionButton extends StatelessWidget {
       child: GestureDetector(
         onTap: () async {
           PageRouteTransition.effect = effect;
-          // PageRouteTransition.push(context, const TransitionExampleScreen());
+          PageRouteTransition.push(context, const TransitionExampleScreen());
           /// OR
           // Navigator.push(context, PageRouteTransitionBuilder(page: const TransitionExampleScreen(), effect: effect));
         },
