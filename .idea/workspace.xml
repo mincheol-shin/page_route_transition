@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="558526c2-2feb-458e-8da6-80f92f10db77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/lib/screens/transition_example_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/page_route_transition_builder.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/transition.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transition.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/transition.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -33,6 +37,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +59,12 @@
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/src/constants" />
+      <recent name="$PROJECT_DIR$/lib/src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,25 +92,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2023" height="321" key="GridCell.Tab.0.bottom" timestamp="1621557524731">
-      <screen x="-2560" y="25" width="2560" height="1415" />
+    <state width="2023" height="320" key="GridCell.Tab.0.bottom" timestamp="1639571847231">
+      <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="321" key="GridCell.Tab.0.bottom/0.25.2560.1319/-2560.25.2560.1415@-2560.25.2560.1415" timestamp="1621557524731" />
-    <state width="2023" height="406" key="GridCell.Tab.0.bottom/0.25.2560.1323/-2560.25.2560.1415@-2560.25.2560.1415" timestamp="1615432565872" />
-    <state width="2023" height="321" key="GridCell.Tab.0.center" timestamp="1621557524730">
-      <screen x="-2560" y="25" width="2560" height="1415" />
+    <state width="2023" height="320" key="GridCell.Tab.0.bottom/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639571847231" />
+    <state width="2023" height="320" key="GridCell.Tab.0.center" timestamp="1639571847230">
+      <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="321" key="GridCell.Tab.0.center/0.25.2560.1319/-2560.25.2560.1415@-2560.25.2560.1415" timestamp="1621557524730" />
-    <state width="2023" height="406" key="GridCell.Tab.0.center/0.25.2560.1323/-2560.25.2560.1415@-2560.25.2560.1415" timestamp="1615432565872" />
-    <state width="2023" height="321" key="GridCell.Tab.0.left" timestamp="1621557524730">
-      <screen x="-2560" y="25" width="2560" height="1415" />
+    <state width="2023" height="320" key="GridCell.Tab.0.center/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639571847230" />
+    <state width="2023" height="320" key="GridCell.Tab.0.left" timestamp="1639571847230">
+      <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="321" key="GridCell.Tab.0.left/0.25.2560.1319/-2560.25.2560.1415@-2560.25.2560.1415" timestamp="1621557524730" />
-    <state width="2023" height="406" key="GridCell.Tab.0.left/0.25.2560.1323/-2560.25.2560.1415@-2560.25.2560.1415" timestamp="1615432565872" />
-    <state width="2023" height="321" key="GridCell.Tab.0.right" timestamp="1621557524730">
-      <screen x="-2560" y="25" width="2560" height="1415" />
+    <state width="2023" height="320" key="GridCell.Tab.0.left/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639571847230" />
+    <state width="2023" height="320" key="GridCell.Tab.0.right" timestamp="1639571847231">
+      <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="321" key="GridCell.Tab.0.right/0.25.2560.1319/-2560.25.2560.1415@-2560.25.2560.1415" timestamp="1621557524730" />
-    <state width="2023" height="406" key="GridCell.Tab.0.right/0.25.2560.1323/-2560.25.2560.1415@-2560.25.2560.1415" timestamp="1615432565872" />
+    <state width="2023" height="320" key="GridCell.Tab.0.right/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639571847231" />
+    <state x="-1840" y="398" key="run.anything.popup" timestamp="1639569706131">
+      <screen x="-2560" y="157" width="2560" height="1415" />
+    </state>
+    <state x="-1840" y="398" key="run.anything.popup/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639569706131" />
   </component>
 </project>
