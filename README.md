@@ -1,6 +1,6 @@
-# transition
+# Page Route Transition
 
-A transition library that helps implement the page transition animation. :dizzy:
+A Page Route Transition library that helps implement the page transition animation. :dizzy:
 
 [![pub](https://img.shields.io/pub/v/transition)](https://pub.dev/packages/transition)
 
@@ -9,7 +9,7 @@ A transition library that helps implement the page transition animation. :dizzy:
 
 # Showcase
 
-<img src = "https://user-images.githubusercontent.com/55150540/101777184-74929100-3b35-11eb-89fb-0620446f8897.gif" width = 200>
+<img src = "https://user-images.githubusercontent.com/55150540/146198658-4e33ffbe-324b-4f57-8793-223fe5fa9b90.gif" width = 200>
 
 <br> 
 
@@ -34,18 +34,15 @@ import 'package:transition/transition.dart';
 # Complete example
 ```dart
 import 'package:flutter/material.dart';
-import 'package:transition/transition.dart';
+import 'package:transition/page_route_transition.dart';
 
 void main() {
-  runApp(MaterialApp(home: MyApp()));
+  runApp(MaterialApp(home: const MyApp()));
 }
 
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
-class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,72 +50,39 @@ class _MyAppState extends State<MyApp> {
         centerTitle: true,
         title: Text("Route Transition Example"),
       ),
-      body: Container(
-        width: double.infinity,
-        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          transitionButton(
-              transitionEffect: TransitionEffect.RIGHT_TO_LEFT,
-              title: "RightToLeft"),
-          transitionButton(
-              transitionEffect: TransitionEffect.LEFT_TO_RIGHT,
-              title: "LeftToRight"),
-          transitionButton(
-              transitionEffect: TransitionEffect.BOTTOM_TO_TOP,
-              title: "BottomToTop"),
-          transitionButton(
-              transitionEffect: TransitionEffect.TOP_TO_BOTTOM,
-              title: "TopToBottom"),
-          transitionButton(
-              transitionEffect: TransitionEffect.SCALE, title: "Scale"),
-          transitionButton(
-              transitionEffect: TransitionEffect.FADE, title: "Fade"),
-        ]),
-      ),
-    );
-  }
-
-  Widget transitionButton(
-      {required TransitionEffect transitionEffect, required String title}) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: GestureDetector(
-        onTap: () {
-          Navigator.push(
-              context,
-              Transition(
-                  child: SecondScreen(), transitionEffect: transitionEffect));
-        },
-        child: Container(
-            height: 40.0,
-            width: 100.0,
-            color: Colors.grey[300],
-            alignment: Alignment.center,
-            child: Text(title)),
-      ),
-    );
-  }
-}
-
-class SecondScreen extends StatefulWidget {
-  @override
-  _SecondScreenState createState() => _SecondScreenState();
-}
-
-class _SecondScreenState extends State<SecondScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text("Route Transition Example"),
-      ),
-      body: Container(
-        alignment: Alignment.center,
-        child: RaisedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text("Pop"),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const TransitionButton(
+              effect: TransitionEffect.none,
+              title: "None",
+            ),
+            const TransitionButton(
+              effect: TransitionEffect.rightToLeft,
+              title: "RightToLeft",
+            ),
+            const TransitionButton(
+              effect: TransitionEffect.leftToRight,
+              title: "LeftToRight",
+            ),
+            const TransitionButton(
+              effect: TransitionEffect.bottomToTop,
+              title: "BottomToTop",
+            ),
+            const TransitionButton(
+              effect: TransitionEffect.topToBottom,
+              title: "TopToBottom",
+            ),
+            const TransitionButton(
+              effect: TransitionEffect.scale,
+              title: "Scale",
+            ),
+            const TransitionButton(
+              effect: TransitionEffect.fade,
+              title: "Fade",
+            ),
+          ],
         ),
       ),
     );
@@ -126,6 +90,38 @@ class _SecondScreenState extends State<SecondScreen> {
 }
 
 
+
+class TransitionButton extends StatelessWidget {
+  const TransitionButton({
+    required this.effect,
+    required this.title,
+  });
+
+  final TransitionEffect effect;
+  final String title;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: GestureDetector(
+        onTap: () async {
+          PageRouteTransition.effect = effect;
+          PageRouteTransition.push(context, const TransitionExampleScreen());
+          /// OR
+          // Navigator.push(context, PageRouteTransitionBuilder(page: const TransitionExampleScreen(), effect: effect));
+        },
+        child: Container(
+          width: 100.0,
+          height: 32.0,
+          color: Colors.grey[300],
+          alignment: Alignment.center,
+          child: Text(title),
+        ),
+      ),
+    );
+  }
+}
 ```
 <br>
 
