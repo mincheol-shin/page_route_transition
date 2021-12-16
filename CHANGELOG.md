@@ -1,3 +1,9 @@
+## 3.1.1
+
+* Updated README
+* Updated example
+
+
 ## 3.1.0
 
 * Updated README

@@ -1,6 +1,6 @@
 name: page_route_transition
 description: A Page Route Transition library that helps implement the page transition animation.
-version: 3.1.0
+version: 3.1.1
 homepage: https://github.com/mincheol-shin/transition
 
 environment:

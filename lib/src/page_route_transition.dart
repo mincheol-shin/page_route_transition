@@ -45,8 +45,6 @@ class PageRouteTransition {
 
   static Future pop<T extends Object?>(BuildContext context,
       [T? result]) async {
-    if (Navigator.canPop(context)) {
-      Navigator.pop(context, result);
-    }
+    if (Navigator.canPop(context)) Navigator.pop(context, result);
   }
 }
