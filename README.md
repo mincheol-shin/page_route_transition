@@ -9,7 +9,7 @@ A Page Route Transition library that helps implement the page transition animati
 
 # Showcase
 
-<img src = "https://user-images.githubusercontent.com/55150540/146198658-4e33ffbe-324b-4f57-8793-223fe5fa9b90.gif" width = 200>
+<img src = "https://user-images.githubusercontent.com/55150540/146302382-67d34bd1-1450-455a-be87-33665026779e.gif" width = 200>
 
 <br> 
 
@@ -36,6 +36,7 @@ import 'package:page_route_transition/page_route_transition.dart';
 import 'package:flutter/material.dart';
 import 'package:transition/page_route_transition.dart';
 
+
 void main() {
   runApp(MaterialApp(home: const MyApp()));
 }
@@ -57,6 +58,10 @@ class MyApp extends StatelessWidget {
             const TransitionButton(
               effect: TransitionEffect.none,
               title: "None",
+            ),
+            const TransitionButton(
+              effect: TransitionEffect.theme,
+              title: "Theme",
             ),
             const TransitionButton(
               effect: TransitionEffect.rightToLeft,
@@ -88,6 +93,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
 
 
