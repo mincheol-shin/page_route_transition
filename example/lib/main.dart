@@ -26,6 +26,10 @@ class MyApp extends StatelessWidget {
               title: "None",
             ),
             const TransitionButton(
+              effect: TransitionEffect.theme,
+              title: "Theme",
+            ),
+            const TransitionButton(
               effect: TransitionEffect.rightToLeft,
               title: "RightToLeft",
             ),

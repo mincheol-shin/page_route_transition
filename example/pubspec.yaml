@@ -1,6 +1,6 @@
 name: page_route_transition_example
 description: Demonstrates how to use the transition plugin.
-version: 3.0.1
+version: 3.1.0
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:

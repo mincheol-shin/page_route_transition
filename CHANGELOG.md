@@ -1,3 +1,10 @@
+## 3.1.0
+
+* Updated README
+* Added `duration` parameter.
+* Added `theme` transition effect.
+
+
 ## 3.0.1
 
 * Updated README

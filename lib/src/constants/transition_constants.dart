@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 enum TransitionEffect {
   none,
+  theme,
   fade,
   scale,
   rightToLeft,

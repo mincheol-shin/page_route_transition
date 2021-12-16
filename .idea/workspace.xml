@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="558526c2-2feb-458e-8da6-80f92f10db77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/constants/transition_constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/constants/transition_constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/page_route_transition.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/page_route_transition.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/page_route_transition_builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/page_route_transition_builder.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +52,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
@@ -81,22 +92,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2023" height="320" key="GridCell.Tab.0.bottom" timestamp="1639578350847">
+    <state width="2023" height="320" key="GridCell.Tab.0.bottom" timestamp="1639624704990">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="320" key="GridCell.Tab.0.bottom/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639578350847" />
-    <state width="2023" height="320" key="GridCell.Tab.0.center" timestamp="1639578350847">
+    <state width="2023" height="320" key="GridCell.Tab.0.bottom/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639624704990" />
+    <state width="2023" height="320" key="GridCell.Tab.0.center" timestamp="1639624704990">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="320" key="GridCell.Tab.0.center/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639578350847" />
-    <state width="2023" height="320" key="GridCell.Tab.0.left" timestamp="1639578350847">
+    <state width="2023" height="320" key="GridCell.Tab.0.center/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639624704990" />
+    <state width="2023" height="320" key="GridCell.Tab.0.left" timestamp="1639624704989">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="320" key="GridCell.Tab.0.left/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639578350847" />
-    <state width="2023" height="320" key="GridCell.Tab.0.right" timestamp="1639578350847">
+    <state width="2023" height="320" key="GridCell.Tab.0.left/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639624704989" />
+    <state width="2023" height="320" key="GridCell.Tab.0.right" timestamp="1639624704990">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
-    <state width="2023" height="320" key="GridCell.Tab.0.right/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639578350847" />
+    <state width="2023" height="320" key="GridCell.Tab.0.right/0.25.2560.1328/-2560.157.2560.1415@-2560.157.2560.1415" timestamp="1639624704990" />
     <state x="-1823" y="594" width="615" height="490" key="find.popup" timestamp="1639577695099">
       <screen x="-2560" y="157" width="2560" height="1415" />
     </state>
