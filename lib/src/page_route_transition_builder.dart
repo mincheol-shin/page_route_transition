@@ -27,7 +27,6 @@ class PageRouteTransitionBuilder extends PageRouteBuilder {
       Animation<double> secondaryAnimation, Widget child) {
     switch (effect) {
       case TransitionEffect.none:
-        return child;
       case TransitionEffect.theme:
         return Theme.of(context).pageTransitionsTheme.buildTransitions(
             this, context, animation, secondaryAnimation, child);

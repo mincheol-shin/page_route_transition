@@ -1,3 +1,7 @@
+## 3.1.2
+
+* Improved `none` transition effect.
+
 ## 3.1.1
 
 * Updated README
