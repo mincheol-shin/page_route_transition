@@ -14,7 +14,11 @@ class TransitionExampleScreen extends StatelessWidget {
       body: Center(
         child: GestureDetector(
           onTap: () {
-            PageRouteTransition.pop(context, false);
+            showModalBottomSheet(
+              context: context,
+              builder: (context) => Container(),
+            );
+            // PageRouteTransition.pop(context, false);
           },
           child: Container(
             width: 100.0,
